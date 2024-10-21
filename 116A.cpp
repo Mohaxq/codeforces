@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+// the question asks to find the maximum capacity
 using namespace std;
 int main (){
 
