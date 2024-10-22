@@ -8,7 +8,8 @@ int main()
     cin>>x;
     for(int i = 0; i<x;i++){
         cin>>num1>>num2>>num3;
-        if(num1+num2+num3 >= 2){
+        if(num1+num2+num3 >= 2){ // less than 2 will not be allowed
+                                
             counter++;
         }
     }
