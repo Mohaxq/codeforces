@@ -1,28 +1,15 @@
-#include <iostream>
+#include<bits/stdc++.h>
+// I tried while loop but it was to0 long and unnecessary
+// And the answer was wrong as well :(
 using namespace std;
-int main(){
-int x =0;
-int counter;
-cin>>counter;
-while (counter >=5){
-    x++;
-    counter -=5;
-}
-while (counter ==4){
-    x++;
-    counter -=4;
-}
-while (counter ==3){
-    x++;
-    counter -=3;
-}
-while (counter ==2){
-    x++;
-    counter -=2;
-}
-while (counter ==1){
-    x++;
-    counter -=1;
-}
-cout<<x<<endl;
+int main ()
+{
+ int  n , res = 0  ;
+ cin>>n;
+ res = n/5;
+ if(n%5!=0)
+ {
+     res +=1;
+ }
+ cout<<res<<endl;
 }
